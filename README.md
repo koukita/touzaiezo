@@ -15,4 +15,4 @@
 　QGISなどのGISにpngファイルをドラッグすることで、地図上に画像を表示できます。
  
 ## QGISのXYZTilesでの利用
-https://koukita.github.io/touzaiezo/tile/{z}/{x}/{y}.jpg
+
