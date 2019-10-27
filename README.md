@@ -12,14 +12,14 @@
 　変形はしていませんので、そのまま画像として利用できます。
  
 ## 位置合わせしたpngファイル（gis_png）
-　東西蝦夷山川地理取調図をQGISの「Freehand raster georeferencer」プラグインを使って位置合わせしています。
-　地理院地図の標準地図にだいたい合うように、回転（1.5度程度）、拡大縮小をしています。そのため、画像ごとに大きさが違います。
-　位置は作成者の感覚で行っていますので、必ずしも正確ではありません。
-　pngファイルと位置情報を記録したワールドファイルpgwがセットです。
+　東西蝦夷山川地理取調図をQGISの「Freehand raster georeferencer」プラグインを使って位置合わせしています。  
+　地理院地図の標準地図にだいたい合うように、回転（1.5度程度）、拡大縮小をしています。そのため、画像ごとに大きさが違います。  
+　位置は作成者の感覚で行っていますので、必ずしも正確ではありません。  
+　pngファイルと位置情報を記録したワールドファイルpgwがセットです。  
 　QGISなどのGISにpngファイルをドラッグすることで、地図上に画像を表示できます。
  
 ## QGISのXYZTilesでの利用
-　QGISのXYZTiles機能で、タイル画像を表示できます。XYZTilesのURLに次のアドレスを入力します。
+　QGISのXYZTiles機能で、タイル画像を表示できます。XYZTilesのURLに次のアドレスを入力します。  
 　https://koukita.github.io/touzaiezo/tile/{z}/{x}/{y}.jpg
 ![QGIS表示例](https://github.com/koukita/touzaiezo/blob/master/image/qgis_hyoujirei.png)
 
