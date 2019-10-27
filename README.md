@@ -21,6 +21,6 @@
 ## QGISのXYZTilesでの利用
 　QGISのXYZTiles機能で、タイル画像を表示できます。XYZTilesのURLに次のアドレスを入力します。
 　https://koukita.github.io/touzaiezo/tile/{z}/{x}/{y}.jpg
-
+![QGIS表示例](https://github.com/koukita/touzaiezo/blob/master/image/qgis_hyoujirei.png)
 
 
