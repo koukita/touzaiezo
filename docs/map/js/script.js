@@ -1,1 +1,31 @@
-var m_color=new L.tileLayer("https://tile.mierune.co.jp/mierune/{z}/{x}/{y}.png",{attribution:"Maptiles by <a href='http://mierune.co.jp/' target='_blank'>MIERUNE</a>, under CC BY. Data by <a href='http://osm.org/copyright' target='_blank'>OpenStreetMap</a> contributors, under ODbL."}),m_mono=new L.tileLayer("https://tile.mierune.co.jp/mierune_mono/{z}/{x}/{y}.png",{attribution:"Maptiles by <a href='http://mierune.co.jp/' target='_blank'>MIERUNE</a>, under CC BY. Data by <a href='http://osm.org/copyright' target='_blank'>OpenStreetMap</a> contributors, under ODbL."}),lat=35.6831925,lng=139.7511307,map_left=L.map("map_left",{layers:[m_color],center:[lat,lng],zoom:14,zoomControl:!0}),map_right=L.map("map_right",{layers:[m_mono],center:[lat,lng],zoom:14,zoomControl:!0});map_left.sync(map_right,{syncCursor:!0}),map_right.sync(map_left,{syncCursor:!0});
+var m_color = new L.tileLayer('https://koukita.github.io/touzaiezo/tile/{z}/{x}/{y}.jpg', {
+    attribution: "東西蝦夷山川地理取調図　函館市中央図書館所蔵資料を喜多耕一が加工"
+});
+
+var m_mono = new L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png', {
+    attribution: "地理院地図（標準地図）"
+});
+
+var lat = 43.009501;
+var lng = 141.422882;
+
+var map_left = L.map('map_left', {
+    layers: [m_color],
+    center: [lat, lng],
+    zoom: 10,
+    minZoom: 5,
+    maxZoom: 12,
+    zoomControl: true
+});
+
+var map_right = L.map('map_right', {
+    layers: [m_mono],
+    center: [lat, lng],
+    zoom: 10,
+    minZoom: 5,
+    maxZoom: 12,
+    zoomControl: true
+});
+
+map_left.sync(map_right, {syncCursor: true});
+map_right.sync(map_left, {syncCursor: true});
