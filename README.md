@@ -19,7 +19,7 @@
 　QGISなどのGISにpngファイルをドラッグすることで、地図上に画像を表示できます。
  
 ## Leafletによる2画面地図
- https://koukita.github.io/touzaiezo/map/
+ https://koukita.github.io/touzaiezo/map/  
  2画面で同じ位置を比較できます。パソコンであれば、カーソルが表示されます。
  
 ## QGISのXYZTilesでの利用
