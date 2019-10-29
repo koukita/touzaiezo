@@ -23,4 +23,5 @@
 　https://koukita.github.io/touzaiezo/tile/{z}/{x}/{y}.jpg
 ![QGIS表示例](https://github.com/koukita/touzaiezo/blob/master/image/qgis_hyoujirei.png)
 
-
+## 地理院地図での表示方法
+　![地理院地図での表示と2画面表示の方法](https://github.com/koukita/touzaiezo/blob/master/docs/%E5%9C%B0%E7%90%86%E9%99%A2%E5%9C%B0%E5%9B%B3%E3%81%A7%E6%9D%B1%E8%A5%BF%E8%9D%A6%E5%A4%B7%E5%B1%B1%E5%B7%9D%E5%9C%B0%E7%90%86%E5%8F%96%E8%AA%BF%E5%9B%B3%E3%82%92%E8%A1%A8%E7%A4%BA%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95.pdf)
